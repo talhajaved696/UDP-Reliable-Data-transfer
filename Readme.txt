@@ -1,3 +1,12 @@
+# Reliable UDP Data Transfer
+
+* Any type of file (audio/video) etc.
+* Reliability added using:
+1) Sequence numbers
+2) Retransmission (selective repeat)
+3) Window size of 5-10 UDP segments (stop n wait)
+4) Re ordering on receiver side
+
 ---------------------------------------------------------------------------------
 ------------------------------ Reliable UDP Transfer ---------------------------- 
 ---------------------------------------------------------------------------------
